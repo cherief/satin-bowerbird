@@ -4,7 +4,6 @@ from datetime import datetime
 import sys
 
 def download_data(url, filename):
-    print(filename)
     with open(filename, "wb") as f:
         response = get(url)
         f.write(response.content)
