@@ -20,9 +20,6 @@ def get_bom_data():
     #urlname_cbr_sum = 'http://www.bom.gov.au/climate/dwo/201406/text/IDCJDW2801.201406.csv'
     #download_data(urlname_cbr_sum,path + 'CBR_' + m + '.csv')
 
-    url_cbr = "http://www.bom.gov.au/fwo/IDN60903/IDN60903.94926.json"
-    download_data(url_cbr,path + 'IDN60903.94926.json')
-
     urlname_bne = 'http://www.bom.gov.au/fwo/IDQ60901/IDQ60901.94576.axf'
     download_data(urlname_bne, path + 'BNE_' + now + '.axf')
 
